@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+
+/* SOLVES LAYOUT ISSUES */
+*{
+    box-sizing: border-box;
+}
+
+/* HEADER SECTION */
+
+header{
+    position: sticky;
+    top: 0%;
+    display: flex; /* Put children in a row*/
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: space-between; /* vertically center items */
+    padding: 10px 20px;
+    margin-top: auto;
+    
+   
+}
+
+header p{
+    display: flex;   /*makes the logo and the AVIATION sit side by side*/
+    align-items: center;
+    gap: 15px;      /* SPACE BETWEEN LOGO AND THE TEXT*/
+    margin: 0;      /* REMOVES DEFAULT <p> margin */
+}
+
+header em{
+    color: white;
+}
+
+header ul{
+    display: flex;     /* NAV ITEMS IN A ROW*/
+    list-style: none;  /* REMOVES BULLETS */
+    gap: 30px;         /* SPACE BETWEEN LINKS*/
+    
+}
+
+header  a {
+    text-decoration: none; /*  REMOVES THE LINES BELOW THE TEXT IN HEADER*/
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 4px 10px black;
+    
+}
+
+header li a:hover{
+    color: #007BFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 5px;
+    
+}
+
+/* THE MAIN SECTION*/
+
+.h2{     /* HEADING (WHAT  TO EXPECT FROM US) */
+    text-align: center;
+    font: bold;
+
+}
+
+aside{
+    width:20%;
+    float: left;
+    padding: 25px;
+    
+}
+
+section{
+    width:40%;
+    float:left;
+    padding: 25px;
+}
+
+article{
+    width:40%;
+    float:left;
+    padding: 25px;
+}
+
+.drone-heading, /* DRONE HEADING */
+.cabin-crew-heading,
+ .pilot-heading{    
+    text-align: center;        
+    
+}
+
+
+@media screen and (max-width:600px) {
+    aside, section, article{
+        width: 100%;
+    }
+}
+
+.gallery{
+    clear:both;  /* START THE GALLERY ON ITS NEW LINE */
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font: bold;
+}
+
+.gallery-info{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* FOR IMAGES*/
+
+.image-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 5% auto 0;
+    box-sizing: border-box;
+}
+
+.image-box{
+    margin: 0 1%;
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: .5s;
+}
+
+.image-box img{  /* Target the image inside the image-box*/
+    width: 100%; 
+    height: 90%;
+    object-fit: cover;
+    display: flex; /* Removess the default inline bottom-margin/gap that browsers add to images */
+    transition: .5s;
+
+}
+
+.image-container, .image-box {  /* Ensure the containers themselves are also full width (just in case) */
+    width: 100%;
+}
+
+.image-box:hover{
+    flex-basis: 50%;
+}
+
+/* FOOTER SECTION*/
+
+footer{
+    display: block;
+    clear: both;  /* REMOVES THE FLOAT */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1px;
+    color: white;
+    
+}
+
+
+
+
