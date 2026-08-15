@@ -1,25 +1,28 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman';
-}
-
 /* SOLVES LAYOUT ISSUES */
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body{
+   
+    font-family: 'Times New Roman';
 }
 
 /* HEADER SECTION */
 
 header{
-    position: sticky;
-    top: 0%;
-    display: flex; /* Put children in a row*/
-    background-color: rgba(0, 0, 0, 0.5);
-    align-items: center;
-    justify-content: space-between; /* vertically center items */
+   
+    display: flex;                          /*  PUT THE CHILDREN ELEMENTS IN ONE ROW */
+    background-color: rgba(0, 0, 0, 0.5);   /* ALTER THE BACKGROUND COLOR  */
+    align-items: center;                    /* VERTICALLY ALIGN THE ITEMS */
+    justify-content: space-between;         /* CREATE SPACE BETWEEN THE ELEMENTS */
     padding: 10px 20px;
     margin-top: auto;
+
+    position: sticky;
+    top: 0%;
     
    
 }
@@ -28,7 +31,7 @@ header p{
     display: flex;   /*makes the logo and the AVIATION sit side by side*/
     align-items: center;
     gap: 15px;      /* SPACE BETWEEN LOGO AND THE TEXT*/
-    margin: 0;      /* REMOVES DEFAULT <p> margin */
+    
 }
 
 header em{
@@ -42,7 +45,7 @@ header ul{
     
 }
 
-header  a {
+.menu  a {
     text-decoration: none; /*  REMOVES THE LINES BELOW THE TEXT IN HEADER*/
     font-weight: bold;
     color: white;
@@ -50,12 +53,17 @@ header  a {
     
 }
 
-header li a:hover{
+.menu a:hover{
     color: #007BFF;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 25px;
     padding: 5px;
     
+}
+
+.cover-page{
+
+    background-image: url(images/Theo.jpg);
 }
 
 /* THE MAIN SECTION*/
