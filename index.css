@@ -23,8 +23,6 @@ header{
 
     position: sticky;
     top: 0%;
-    
-   
 }
 
 header p{
@@ -47,6 +45,7 @@ header ul{
 
 .menu  a {
     text-decoration: none; /*  REMOVES THE LINES BELOW THE TEXT IN HEADER*/
+    margin: 20px;
     font-weight: bold;
     color: white;
     text-shadow: 2px 4px 10px black;
@@ -64,6 +63,9 @@ header ul{
 .cover-page{
 
     background-image: url(images/Theo.jpg);
+    background-position: center center;
+    height: 100vh;
+    
 }
 
 /* THE MAIN SECTION*/
