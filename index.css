@@ -143,7 +143,7 @@ article{
     margin: 0 1%;
     flex-grow: 1;
     flex-basis: 0;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .image-box img{  /* Target the image inside the image-box*/
@@ -151,7 +151,7 @@ article{
     height: 90%;
     object-fit: cover;
     display: flex; /* Removess the default inline bottom-margin/gap that browsers add to images */
-    transition: .5s;
+    transition: 0.5s;
 
 }
 
