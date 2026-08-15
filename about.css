@@ -3,7 +3,7 @@ body{
     font-style: italic;
     text-align: center;
     list-style-position: inside; /* MOVE THE BULLET POINTS ALONG WITH THE TEXT */
-    background-image: url(images/AV_7.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5)) url(images/AV_7.jpeg);
     color: snow;
     background-position: center center;
     background-repeat: no-repeat;
