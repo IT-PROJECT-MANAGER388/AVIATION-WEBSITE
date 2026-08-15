@@ -63,7 +63,8 @@ header ul{
 .cover-page{
 
     background-image: url(images/Theo.jpg);
-    background-position: center center;
+    background-position: top center;
+    background-repeat: no-repeat;
     height: 100vh;
     
 }
