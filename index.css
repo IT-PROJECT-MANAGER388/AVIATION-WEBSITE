@@ -22,7 +22,7 @@ header{
     justify-content: space-between;         /* CREATE SPACE BETWEEN THE ELEMENTS */
     padding: 10px 20px;
     
-    position: fixed;
+    position: sticky;
     top: 0;
 }
 
