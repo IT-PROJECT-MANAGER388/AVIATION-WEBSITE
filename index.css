@@ -21,8 +21,7 @@ header{
     align-items: center;                    /* VERTICALLY ALIGN THE ITEMS */
     justify-content: space-between;         /* CREATE SPACE BETWEEN THE ELEMENTS */
     padding: 10px 20px;
-    margin-top: auto;
-
+    
     position: sticky;
     top: 0%;
 }
