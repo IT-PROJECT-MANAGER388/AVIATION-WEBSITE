@@ -9,8 +9,7 @@
 body{
    
     font-family: 'Times New Roman';
-    width: 100vw;
-    
+        
 }
 
 /* =================================================================================================================================== */
@@ -111,6 +110,12 @@ article{
 @media screen and (max-width:600px) {
     aside, section, article{
         width: 100%;
+    }
+
+    body{
+    width: 100vw;
+    padding:0;
+    margin: 0;    
     }
 
     
