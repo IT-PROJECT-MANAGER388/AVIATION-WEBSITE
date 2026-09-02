@@ -86,20 +86,20 @@ header em{
 }
 
 aside{
-    width:33%;
+    width:20%;
     float: left;
     padding: 25px;
     
 }
 
 section{
-    width:34%;
+    width:40%;
     float:left;
     padding: 25px;
 }
 
 article{
-    width:33%;
+    width:40%;
     float:left;
     padding: 25px;
 }
