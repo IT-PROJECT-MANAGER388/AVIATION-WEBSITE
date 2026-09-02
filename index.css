@@ -49,12 +49,6 @@ header em{
     color: white;
 }
 
-header ul{
-    display: flex;     /* NAV ITEMS IN A ROW*/
-    list-style: none;  /* REMOVES BULLETS */
-    gap: 30px;         /* SPACE BETWEEN LINKS*/
-    
-}
 
 .menu  a {
     text-decoration: none; /*  REMOVES THE LINES BELOW THE TEXT IN HEADER*/
