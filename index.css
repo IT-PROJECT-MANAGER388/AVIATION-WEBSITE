@@ -178,10 +178,15 @@ article{
 
 @media (max-width:767px){  /* MAKE THE WEBSITE RESPONSIVE FOR SMARTPHONES ONLY */
 
+    .cover-page{
+        height: 60vh;
+    }
+
     .wht-expect-photos{
         width: 310px;
         height: auto;
     }
+
     
 }
 
