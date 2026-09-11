@@ -178,7 +178,7 @@ article{
 
 @media (max-width:767px){  /* MAKE THE WEBSITE RESPONSIVE FOR SMARTPHONES ONLY */
 
-    .what-expect-photos{
+    .wht-expect-photos{
         width: 250px auto;
         height: auto;
     }
