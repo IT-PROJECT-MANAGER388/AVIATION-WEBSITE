@@ -176,7 +176,7 @@ article{
 /*                                                            MEDIA QUERIES                                                            */
 /* =================================================================================================================================== */
 
-@media (max-width:767px){  /* MAKE THE WEBSITE RESPONSIVE FOR SMARTPHONES ONLY */
+@media (max-width:767px) and (orientation: portrait){  /* MAKE THE WEBSITE RESPONSIVE FOR SMARTPHONES ONLY */
 
     .cover-page{
         height: 60vh;
