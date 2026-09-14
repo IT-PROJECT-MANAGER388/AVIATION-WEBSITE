@@ -27,7 +27,7 @@
                 
         <nav class="menu" id="menu" >
 
-            <i class="fa fa-close"></i>
+            <i class="fa fa-close" onclick="closeMenu()"></i>
             
             <a href="#top">HOME</a>
             <a href="About.html">ABOUT US</a>
@@ -37,7 +37,7 @@
             
         </nav>
 
-     <i class="fa fa-bars"></i>
+     <i class="fa fa-bars" onclick="showMenu()"></i>
         
     </header>
 
@@ -158,5 +158,21 @@
     </footer>
 <!-- it will always seems impossible until it is all done....coded with pure adulate and passion -->
 </body>
+
+    <script>
+
+        var show = document.getElementById("menu");
+
+        function showMenu(){
+            
+            show.style.right = "0";
+        }
+
+        function clsoeMenu(){
+
+            show.style.right = "-200px";
+        }
+        
+    </script>
 
 </html>
