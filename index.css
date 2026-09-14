@@ -39,6 +39,7 @@ header{
 }
 
 header p{
+    
     display: flex;   /*makes the logo and the AVIATION sit side by side*/
     align-items: center;
     gap: 15px;      /* SPACE BETWEEN LOGO AND THE TEXT*/
@@ -46,11 +47,13 @@ header p{
 }
 
 header em{
+    
     color: white;
 }
 
 
 .menu  a {
+    
     text-decoration: none; /*  REMOVES THE LINES BELOW THE TEXT IN HEADER*/
     margin: 20px;
     font-weight: bold;
@@ -60,6 +63,7 @@ header em{
 }
 
 .menu a:hover{
+    
     color: #007BFF;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 25px;
@@ -171,6 +175,10 @@ article{
     flex-basis: 50%;
 }
 
+header .fa{
+
+    display: none;
+}
 
 /* =================================================================================================================================== */
 /*                                                            MEDIA QUERIES                                                            */
@@ -185,6 +193,39 @@ article{
     .wht-expect-photos{
         width: 310px;
         height: auto;
+    }
+
+    .far-bar{
+
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    header .fa{
+
+        display: block;
+        font-size: 22px;
+        margin: 10px 25px;
+        cursor: pointer;
+    }
+
+    .menu{
+
+        width: 200px;
+        height: 100vh;
+        background: #000;
+        position: absolute;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        
+    }
+
+    .menu a{
+
+        display: block;
     }
 
     
