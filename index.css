@@ -193,6 +193,7 @@ header .fa{
     .wht-expect-photos{
         width: 310px;
         height: auto;
+        align-items: centre;
     }
 
     .far-bar{
@@ -229,6 +230,8 @@ header .fa{
 
         display: block;
     }
+
+    
 
     
 }
