@@ -292,7 +292,7 @@ footer{
     clear: both;  /* REMOVES THE FLOAT */
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 1px;
+    padding: 5px;
     color: white;
     position: sticky;
     bottom: 0%;
