@@ -281,6 +281,22 @@ header .fa{
         display: block;
     }
 
+    aside, article{
+        width: 33%;
+        
+    }
+
+    section{
+
+        width: 34%;
+    }
+    
+    .wht-expect-photos{
+        
+        width: 250px;
+        height: 166px;
+        
+    }
     
 }
 
